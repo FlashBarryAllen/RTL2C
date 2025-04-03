@@ -6,11 +6,11 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 project(simple_adder)
 
 include_directories("./include/systemc/")
-include_directories("./obj_dir/")
+include_directories("./RTL/obj_dir/")
 include_directories("./include/verilator")
 
 link_directories("./libs/systemc/")
-link_directories("./obj_dir/")
+link_directories("./RTL/obj_dir/")
 
 add_executable(${PROJECT_NAME} 
     ${CMAKE_SOURCE_DIR}/sc_main.cpp
