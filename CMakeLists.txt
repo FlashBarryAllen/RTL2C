@@ -7,7 +7,7 @@ project(simple_adder)
 
 include_directories("./include/systemc/")
 include_directories("./obj_dir/")
-include_directories("/00_ycl/02_download/verilator-master/include")
+include_directories("./include/verilator")
 
 link_directories("./libs/systemc/")
 link_directories("./obj_dir/")
